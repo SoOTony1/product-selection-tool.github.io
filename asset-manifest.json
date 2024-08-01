@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SoOTony1/product-selection-tool.github.io.git/static/css/main.66a992f8.css",
+    "main.js": "/SoOTony1/product-selection-tool.github.io.git/static/js/main.673c6707.js",
+    "index.html": "/SoOTony1/product-selection-tool.github.io.git/index.html",
+    "main.66a992f8.css.map": "/SoOTony1/product-selection-tool.github.io.git/static/css/main.66a992f8.css.map",
+    "main.673c6707.js.map": "/SoOTony1/product-selection-tool.github.io.git/static/js/main.673c6707.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66a992f8.css",
+    "static/js/main.673c6707.js"
+  ]
+}
