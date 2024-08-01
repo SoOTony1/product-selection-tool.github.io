@@ -1,0 +1,42 @@
+.container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.product-category {
+    margin-bottom: 20px;
+}
+
+.product-options {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .product-options li {
+        cursor: pointer;
+        padding: 5px;
+        border: 1px solid #ddd;
+        margin-bottom: 5px;
+        transition: background-color 0.3s;
+    }
+
+        .product-options li:hover {
+            background-color: #f0f0f0;
+        }
+
+.back-button {
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+    .back-button:hover {
+        background-color: #ccc;
+    }
+
+pre {
+    white-space: pre-wrap;
+}
