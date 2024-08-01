@@ -1,7 +1,7 @@
 {
   "name": "product-selection-tool",
   "main": "main.js",
-  "homepage":"https://sootony1.github.io/product-selection-tool.github.io/"，
+  "homepage":"https://sootony1.github.io/product-selection-tool.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
