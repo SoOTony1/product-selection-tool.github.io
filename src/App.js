@@ -5,8 +5,14 @@ const productData = {
     温度计: {
         name: '温度计',
         subcategories: {
-            一体化温度计: { name: '一体化温度计', options: [{ code: 'YHN10', name: '一体化温度计' }] },
+            通用型温度计: { name: '通用型温度计', options: [{ code: 'YHN10', name: '通用型温度计' }] },
+            一体化温度计: { name: '一体化温度计', options: [{ code: 'YHN60', name: '一体化温度计' }] },
+            紧凑型温度计: { name: '紧凑型温度计', options: [{ code: 'YHN45', name: '紧凑型温度计' }] },
+            差压式温度计: { name: '差压式温度计', options: [{ code: 'YHN30', name: '差压式温度计' }] },
+            高温型温度计: { name: '高温型温度计', options: [{ code: 'YHN80', name: '高温型温度计' }] },
             环境温度计: { name: '环境温度计', options: [{ code: 'YHN434', name: '环境温度计' }] },
+            芯子YHR100: { name: '芯子YHR100', options: [{ code: 'YHR100', name: '芯子YHR100' }] },
+            芯子YHR300: { name: '芯子YHR300', options: [{ code: 'YHR300', name: '芯子YHR300' }] }
         }
     },
     接线盒: {
@@ -32,6 +38,16 @@ const productData = {
             }
         }
     },
+    其他: {
+        name: '其他',
+        subcategories: {
+            管件套管: { name: '管件套管', options: [{ code: 'THP', name: '管件套管' }] },
+            整体钻孔棒材套管: { name: '整体钻孔棒材套管', options: [{ code: 'THB', name: '整体钻孔棒材套管' }] },
+            双金属温度计: { name: '双金属温度计', options: [{ code: 'WSS', name: '双金属温度计' }] },
+            焊接底座: { name: '焊接底座', options: [{ code: 'THHZ', name: '焊接底座' }] },
+            二次仪表: { name: '二次仪表', options: [{ code: 'YHN861', name: '二次仪表' }] }
+        }
+    }
 };
 
 function App() {
