@@ -5,38 +5,55 @@
 
 .product-category {
     margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #222;
 }
 
 .product-options {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-    .product-options li {
-        cursor: pointer;
-        padding: 5px;
-        border: 1px solid #ddd;
-        margin-bottom: 5px;
-        transition: background-color 0.3s;
-    }
+.product-options li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-        .product-options li:hover {
-            background-color: #f0f0f0;
-        }
+.product-options li:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
 
 .back-button {
     margin-bottom: 20px;
     cursor: pointer;
-    padding: 5px 10px;
+    padding: 10px 15px;
     background-color: #ddd;
     border: none;
-    transition: background-color 0.3s;
+    border-radius: 10px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-    .back-button:hover {
-        background-color: #ccc;
-    }
+.back-button:hover {
+    background-color: #ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
 
 pre {
     white-space: pre-wrap;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
